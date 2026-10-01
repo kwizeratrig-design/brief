@@ -35,6 +35,7 @@ void setup() {
   pinMode(LED2, OUTPUT);
   digitalWrite(LED1, LOW);
   digitalWrite(LED2, LOW);
+  if (!TinyUSBDevice.isInitialized()) TinyUSBDevice.begin(0);
   usb_hid.setPollInterval(2);
   usb_hid.setReportDescriptor(hid_report_desc, sizeof(hid_report_desc));
   usb_hid.begin();
@@ -49,13 +50,13 @@ void loop() {
     lastBtn1 = b1; changed1 = now;
     bool pressed = (b1 == LOW);
     digitalWrite(LED1, pressed ? HIGH : LOW);
-    sendKey(HID_KEY_F13, pressed);
+    if (pressed) sendKey(HID_KEY_F13, true); else usb_hid.keyboardRelease(0);
   }
   if (b2 != lastBtn2 && now - changed2 >= DEBOUNCE_MS) {
     lastBtn2 = b2; changed2 = now;
     bool pressed = (b2 == LOW);
     digitalWrite(LED2, pressed ? HIGH : LOW);
-    sendKey(HID_KEY_F14, pressed);
+    if (pressed) sendKey(HID_KEY_F14, true); else usb_hid.keyboardRelease(0);
   }
   delay(1);
 }
