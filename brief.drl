@@ -1,0 +1,54 @@
+M48
+; DRILL file Flux date 2026-10-01T10:50:13
+; FORMAT={-:-/ absolute / metric / decimal}
+; #@! TF.CreationDate,2026-10-01T10:50:13+00:00
+; #@! TF.GenerationSoftware,Flux,Flux PCB Export,1
+; #@! TF.FileFunction,MixedPlating,1,2
+FMAT,2
+METRIC
+; #@! TA.AperFunction,Plated,PTH,ComponentDrill
+T1C0.800
+; #@! TA.AperFunction,Plated,PTH,ComponentDrill
+T2C0.980
+; #@! TA.AperFunction,Plated,PTH,ComponentDrill
+T3C1.000
+; #@! TA.AperFunction,Plated,PTH,ComponentDrill
+T4C1.100
+%
+G90
+G05
+T1
+X13.0Y-46.34
+X20.62Y-46.34
+X30.0Y-46.34
+X37.62Y-46.34
+T2
+X13.5Y-52.34
+X16.04Y-52.34
+X29.5Y-52.34
+X32.04Y-52.34
+T3
+X22.25Y-13.24
+X22.25Y-15.78
+X22.25Y-18.32
+X22.25Y-20.86
+X22.25Y-23.4
+X22.25Y-25.941
+X22.25Y-28.48
+X37.744Y-13.24
+X37.744Y-15.78
+X37.744Y-18.32
+X37.744Y-20.86
+X37.744Y-23.4
+X37.744Y-25.941
+X37.744Y-28.48
+T4
+X18.0Y-60.84
+X18.0Y-65.34
+X24.5Y-60.84
+X24.5Y-65.34
+X34.0Y-60.84
+X34.0Y-65.34
+X40.5Y-60.84
+X40.5Y-65.34
+M30

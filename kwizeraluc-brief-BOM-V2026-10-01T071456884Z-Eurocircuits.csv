@@ -1,0 +1,5 @@
+﻿Reference designators,Quantity,MPN,Manufacturer,Part description,Value,SPN,Supplier,Package
+"LED1,LED2","2","L-7113SEC-J3","Kingbright","Optoelectronic Devices","","","",""
+"R1,R2","2","","","Resistor, 1kΩ, H_AXIAL-P7.62_D2.5","1kΩ","","","H_AXIAL-P7.62_D2.5"
+"SW1,SW2","2","3-1825910-5","TE Connectivity ALCOSWITCH Switches","Switch","","","",""
+"U1","1","102010428","Seeed Technology Co., Ltd","Development Board","","","",""

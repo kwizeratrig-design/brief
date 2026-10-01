@@ -1,0 +1,8 @@
+﻿Designator,Mid X,Mid Y,Layer,Rotation,Package,Value
+"LED1","-15.23mm","-11.5mm","Top",0,"",""
+"LED2","0.77mm","-11.5mm","Top",0,"",""
+"R1","-13.19mm","-5.5mm","Top",0,"H_AXIAL-P7.62_D2.5","1kΩ"
+"R2","3.81mm","-5.5mm","Top",0,"H_AXIAL-P7.62_D2.5","1kΩ"
+"SW1","-8.75mm","-22.25mm","Top",0,"",""
+"SW2","7.25mm","-22.25mm","Top",0,"",""
+"U1","-0.003mm","19.98mm","Top",0,"",""

@@ -1,0 +1,5 @@
+﻿Item #,Designator,Qty,Manufacturer,Mfg Part #,Description / Value,Package/Footprint,Type,Your Instructions / Notes
+"1","LED1,LED2","2","Kingbright","L-7113SEC-J3","Optoelectronic Devices","","",""
+"2","R1,R2","2","","","Resistor, 1kΩ, H_AXIAL-P7.62_D2.5","H_AXIAL-P7.62_D2.5","",""
+"3","SW1,SW2","2","TE Connectivity ALCOSWITCH Switches","3-1825910-5","Switch","","",""
+"4","U1","1","Seeed Technology Co., Ltd","102010428","Development Board","","",""
